@@ -1,9 +1,9 @@
 {
-  "name":"JAMES-MD",
-  "description":"Best whatsapp bot created by JAMESTECH",
+  "name":"OBED VMD",
+  "description":"Best whatsapp bot created by OBED VMD",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/eg2cgb.jpg",
-  "repository":"https://github.com/jtech//james",
+  "repository":"https://github.com/Trippleo1802/Obedjames",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -77,7 +77,7 @@
        "BOT_NAME" : 
     {
     "description":"put A name for your bot",
-    "value":"JAMES_MD",
+    "value":"OBED VMD",
     "required":false
 
     },
@@ -117,14 +117,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "james"
+    "value": "obed"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254785016388"
+    "value": "254701082940"
   },
     "WARN_COUNT":
   {
