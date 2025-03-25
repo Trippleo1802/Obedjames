@@ -7,11 +7,11 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'JAMES-MD;;;',
+module.exports = { session: process.env.SESSION_ID || 'OBED-VMD;;;',
     PREFIXE: process.env.PREFIX || "+",
     CHAT_BOT : process.env.CHAT_BOT|| "non",
-    OWNER_NAME : process.env.OWNER_NAME || "james",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "254758755663",
+    OWNER_NAME : process.env.OWNER_NAME || "OBED VMD",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "254701082940",
     ANTICALL: process.env.ANTICALL || "non",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || "non",
@@ -28,7 +28,7 @@ module.exports = { session: process.env.SESSION_ID || 'JAMES-MD;;;',
     GURL: process.env.GURL  || "https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H",
     WEBSITE :process.env.GURL || "https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H",
     CAPTION : process.env.CAPTION || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ JAMES",
-    BOT : process.env.BOT_NAME || 'JAMES',
+    BOT : process.env.BOT_NAME || 'OBED VMD',
     URL : process.env.BOT_MENU_LINKS || 'https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H',
     MODE: process.env.PUBLIC_MODE || "no",
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
